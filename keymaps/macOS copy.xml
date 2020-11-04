@@ -28,8 +28,7 @@
   <action id=":cursive.actions.paredit/wrap-curly" />
   <action id=":cursive.actions.paredit/wrap-paren" />
   <action id=":cursive.repl.actions/prev-history-item" />
-  <action id=":cursive.repl.actions/run-top-sexp">
-    <keyboard-shortcut first-keystroke="shift meta p" />
+  <action id=":cursive.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
   </action>
   <action id="ActivateCommitToolWindow" />
@@ -131,6 +130,9 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl left" />

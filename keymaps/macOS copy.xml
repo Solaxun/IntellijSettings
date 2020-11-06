@@ -138,6 +138,10 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />

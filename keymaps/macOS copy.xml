@@ -82,14 +82,6 @@
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
-  <action id="EditorMoveToPageBottom">
-    <keyboard-shortcut first-keystroke="meta page_down" />
-    <keyboard-shortcut first-keystroke="shift meta period" />
-  </action>
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="meta page_up" />
-    <keyboard-shortcut first-keystroke="shift meta comma" />
-  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta f" />
@@ -97,6 +89,14 @@
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta b" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />

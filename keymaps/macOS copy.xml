@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -21,8 +25,7 @@
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
-  <action id=":cursive.actions.paredit/splice">
-    <keyboard-shortcut first-keystroke="alt s" />
+  <action id=":cursive.actions.paredit/splice-killing-backwards">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id=":cursive.actions.paredit/wrap-curly" />
@@ -32,6 +35,14 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
   </action>
   <action id="ActivateCommitToolWindow" />
+  <action id="Arrangement.Alias.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="meta alt left" />
@@ -52,6 +63,14 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Debug" />
+  <action id="Debugger.RemoveArrayFilter">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Debugger.RemoveCustomField">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
@@ -59,6 +78,10 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Diff.ShowDiff" />
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -72,6 +95,10 @@
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="alt delete" />
@@ -100,6 +127,10 @@
   </action>
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
+  <action id="FileChooser.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Find">
@@ -138,6 +169,10 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta s" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
@@ -162,5 +197,9 @@
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.GoToRef" />
   <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
